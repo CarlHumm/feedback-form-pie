@@ -1,0 +1,27 @@
+:root {
+  // Spacing
+  --space-3xs: clamp(0.25rem, 0.2283rem + 0.1087vw, 0.3125rem);
+  --space-2xs: clamp(0.5rem, 0.4565rem + 0.2174vw, 0.625rem);
+  --space-xs: clamp(0.75rem, 0.6848rem + 0.3261vw, 0.9375rem);
+  --space-s: clamp(1rem, 0.913rem + 0.4348vw, 1.25rem);
+  --space-m: clamp(1.5rem, 1.3696rem + 0.6522vw, 1.875rem);
+
+  // Typography
+  --heading-family: "Montserrat", sans-serif;
+  --base-family: "Lato", sans-serif;
+
+  --step--2: clamp(0.6944rem, 0.6577rem + 0.1836vw, 0.8rem);
+  --step--1: clamp(0.8333rem, 0.7754rem + 0.2899vw, 1rem);
+  --step-0: clamp(1rem, 0.913rem + 0.4348vw, 1.25rem);
+  --step-1: clamp(1.2rem, 1.0739rem + 0.6304vw, 1.5625rem);
+  --step-2: clamp(1.44rem, 1.2615rem + 0.8924vw, 1.9531rem);
+  --step-3: clamp(1.728rem, 1.4799rem + 1.2407vw, 2.4414rem);
+  --step-4: clamp(2.0736rem, 1.7334rem + 1.7011vw, 3.0518rem);
+  --step-5: clamp(2.4883rem, 2.027rem + 2.3067vw, 3.8147rem);
+  
+  // Colours
+  --yellow: hsl(51, 95%, 54%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(60, 1%, 27%);
+  --lightGrey: hsl(0, 0%, 95%);
+}

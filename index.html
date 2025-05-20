@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+  </head>
+  <body>
+    <main class="frame">
+      <article class="card">
+        <picture class="card__image">
+          <source
+            srcset="./assets/speaker-desktop.webp"
+            media="(min-width: 57.5rem)"
+          />
+          <img
+            src="./assets/speakers.webp"
+            width="300"
+            height="287.48"
+            aria-hidden="true"
+            alt=""
+          />
+        </picture>
+        <div class="card__content">
+          <form id="feedback-form" class="feedback" novalidate>
+            <h2 class="feedback__title">
+              <span>Feedback Form</span> Have your say
+              <img
+                src="./assets/fullstop-hex.svg"
+                alt=""
+                aria-hidden="true"
+              />
+            </h2>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                class="feedback__input"
+                name="email"
+                placeholder="you@example.com"
+                aria-describedby="email-error"
+                required
+              />
+              <span class="feedback__progress-indicator">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15.533"
+                  height="17.287"
+                  viewBox="0 0 15.533 17.287"
+                >
+                  <g transform="translate(-22.968 1.143)">
+                    <path
+                      id="indicator"
+                      d="M37.5,11.25V3.75L30.734,0,23.968,3.75v7.5L30.734,15Z"
+                      fill="none"
+                      stroke="#F9D309"
+                      stroke-width="2"
+                    />
+                  </g>
+                </svg>
+              </span>
+              <span id="email-error" class="feedback__error"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                class="feedback__input"
+                name="message"
+                placeholder="Write your message here..."
+                aria-describedby="message-error"
+                required
+              ></textarea>
+              <span class="feedback__progress-indicator">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15.533"
+                  height="17.287"
+                  viewBox="0 0 15.533 17.287"
+                >
+                  <g transform="translate(-22.968 1.143)">
+                    <path
+                      id="indicator"
+                      d="M37.5,11.25V3.75L30.734,0,23.968,3.75v7.5L30.734,15Z"
+                      fill="none"
+                      stroke="#F9D309"
+                      stroke-width="2"
+                    />
+                  </g>
+                </svg>
+              </span>
+              <span id="message-error" class="feedback__error"></span>
+            </div>
+            <button type="submit" class="feedback__button" disabled>
+              Send
+            </button>
+          </form>
+        </div>
+        <div
+          id="success"
+          class="feedback__success"
+          aria-live="polite"
+          aria-describedby="success__desc"
+          aria-labelledby="success__title"
+        >
+          <h2 id="success__title">Status</h2>
+          <p id="success__desc">Thanks for your feedback!</p>
+        </div>
+      </article>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

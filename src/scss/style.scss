@@ -1,0 +1,24 @@
+@use "./reset";
+@use "./variables";
+@use "./queries";
+@use "./fonts";
+@use "./components/index";
+
+body {
+  background: var(--lightGrey);
+  font-family: var(--base-family);
+}
+
+.show {
+  display: flex;
+}
+
+.frame {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+
+:where(h1, h2, h3, h4, h5, h6) {
+  font-family: "Montserrat";
+}
