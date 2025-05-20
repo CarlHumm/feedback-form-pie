@@ -1,6 +1,6 @@
 
 
-![Project Preview](./screenshot.png);
+![Project Preview](./screenshot.png)
 
 # Feedback Form Project
 
