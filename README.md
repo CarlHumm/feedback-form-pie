@@ -38,10 +38,10 @@ A fully accessible, dynamic feedback form built using HTML, CSS, vanilla JavaScr
 This version runs as a standalone HTML/CSS/JS form with a PHP backend.
 
 1. **Navigate to the project directory and install dependencies**
-   ```bash
-   cd feedback-form-pie
-   npm install
-   ```
+ ```bash
+ cd feedback-form-pie
+ npm install
+ ```
 
 2. **Build the project**
 ```bash
