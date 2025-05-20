@@ -76,7 +76,7 @@ npm run build:wordpress
 
 2. **Copy the plugin folder**
 
-Manually copy the feedback-plugin folder (inside your project) to your local WordPress installation's plugin directory:
+Manually copy the feedback-plugin folder from your root to your local WordPress installation's plugin directory:
 
 ```bash
 wp-content/plugins/
