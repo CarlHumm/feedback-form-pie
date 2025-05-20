@@ -4,7 +4,7 @@
 
 # Feedback Form Project
 
-A fully accessible, dynamic feedback form built using HTML, CSS, vanilla JavaScript, and PHP—with optional integration as a WordPress plugin.
+A fully accessible, dynamic feedback form built using HTML, CSS, vanilla JavaScript, and PHP with optional integration as a WordPress plugin.
 
 ---
 
@@ -29,7 +29,7 @@ A fully accessible, dynamic feedback form built using HTML, CSS, vanilla JavaScr
 ### Prerequisites
 
 - Node.js & npm
-- PHP or LAMP Server (for backend testing)
+- PHP or LAMP Server 
 - WordPress environment for plugin testing. I use [LocalWP](https://localwp.com/)
 
 
